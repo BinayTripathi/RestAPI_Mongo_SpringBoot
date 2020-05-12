@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: RandomPayloadTestWipro
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/WiproTestDB  # username: root and password : root in case mongo started as 'mongod --auth'    
+server:
+  port: 8000
