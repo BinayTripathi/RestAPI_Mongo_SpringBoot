@@ -28,7 +28,7 @@ The overall objective of the applications :
 >   
 >	3. [![STS](https://img.shields.io/badge/Spring_Tool_Suite-STS-blue.svg?style=plastic)](https://spring.io/tools) to run/debug the applications
 >	
->	4. [![STS](https://img.shields.io/badge/Spring_Tool_Suite-STS-blue.svg?style=plastic)](https://www.mongodb.com/download-center) to run install MongoDB
+>	4. [![MongoDB](https://img.shields.io/badge/MongoDB-STS-blue.svg?style=plastic)](https://www.mongodb.com/download-center) to run install MongoDB
 >	
 ##### Project Setup detail
 
@@ -40,7 +40,7 @@ The overall objective of the applications :
 >   1. Open **Spring Tool Suite** .
 >   2. Select **File** ->  **Import** and then select **Existing Maven Projects**
 >   3. Browse to  **SpringBootMongoRest** select pom.xml and click **Finish** to import the project.
->   5. Create mongodb database :  ** use WiproTestDB**
+>   5. Create mongodb database :  **use WiproTestDB**
 >   6. Create collection incoming : **db.createCollection("incoming")**
 >   7. Create collection outgoing : **db.createCollection("outgoing")**
 >   8. Run/Debug the project
